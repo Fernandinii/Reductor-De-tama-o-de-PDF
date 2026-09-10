@@ -3,7 +3,7 @@ import fitz  # PyMuPDF
 import io
 
 # Configuración visual: Fondo Negro (Modo Oscuro)
-st.set_page_config(page_title="Color PDF Optimizer", page_icon="🎨")
+st.set_page_config(page_title="Color PDF Optimizer", page_icon=)
 
 st.markdown("""
     <style>
