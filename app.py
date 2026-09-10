@@ -78,11 +78,11 @@ if archivo:
             
             # --- Validaciones de peso ---
             if 60 <= peso_final <= 100:
-                st.success(f"🎯 ¡Objetivo logrado! Peso: **{peso_final:.2f} KB** (Color nítido)")
+                st.success(f" ¡Objetivo logrado! Peso: **{peso_final:.2f} KB** (Color nítido)")
             elif peso_final < 60:
-                st.warning(f"⚠️ Peso: **{peso_final:.2f} KB**. El archivo es muy simple, pero mantiene el color.")
+                st.warning(f" Peso: **{peso_final:.2f} KB**. El archivo es muy simple, pero mantiene el color.")
             else:
-                st.info(f"✅ Optimizado: **{peso_final:.2f} KB** (Por debajo de 1 MB)")
+                st.info(f" Optimizado: **{peso_final:.2f} KB** (Por debajo de 1 MB)")
 
             st.download_button(
                 label="📥 Descargar Resultado Final",
